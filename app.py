@@ -3,7 +3,7 @@ import os
 
 urls = ("/", "index", "/heartbeat.jsp", "heartbeat")
 app = web.application(urls, globals())
-render = web.template.render('templates', globals={'os': os, 'ext':ext})
+render = web.template.render('templates', globals={'os': os})
 
 
 class index:
@@ -15,7 +15,7 @@ class heartbeat:
         data = web.data()
         return "classic17.net"
         with open("logs.txt", "a") as f:
-            f.write(str(data))
+            f.write(str(data)) # Unsure how I will be able to log the arguments. It's possible though?
     def GET(self):
         return "Unauthorised"
 
