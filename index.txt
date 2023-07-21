@@ -1,0 +1,12 @@
+This is my AWESOME WEBSITE and i made it with WEB.PY. Screw Flask And heres why:
+
+Sqlite library is shit and no one knows how touse it
+Sqlite library documentation doesnt help either
+Cant use it for larger projects (even a SMALL FUCKING SNS)
+Makes me want to vomit
+
+Why you should use WEBPY:
+
+Sql support and documentation that doesnt make me want to jump off a bridge
+Cookbook and reference that actually explains what the hell im looking at
+Made by AARON MOTHERFUCKING SWARTZ (rest in Power)
